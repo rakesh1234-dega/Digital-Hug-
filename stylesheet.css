@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(120deg, #11000c, #0f4bb1);
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background:linear-gradient(120deg, #b1b0ad, #180601);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    height: 80px;
+    
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Arial Black', sans-serif;
+}
+.navbar-nav .nav-link {
+    color: #f0ecec;
+    transition: color 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.dropdown-menu{
+    background:linear-gradient(120deg, #b1b0ad, #180601);
+    border-radius: 10px;
+    
+}

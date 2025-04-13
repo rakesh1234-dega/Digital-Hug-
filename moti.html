@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith Zone - Meditation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .meditation-section {
+            padding: 80px 0;
+            background:linear-gradient( #02240a, #164fb0, #05150c );
+
+        }
+        .meditation-section h2{
+            color: #ffffff;
+            font-size: 50px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style:oblique;
+            text-transform:var(#5dadef);
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 1px rgba(42, 202, 255, 0.5);
+        }
+        .meditation-section p{
+            color: #fafcff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            text-shadow: #d83232;
+
+        }
+
+
+        .meditation-item {
+            border: 1px solid #dad7d7;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .meditation-item audio, .meditation-item video {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 15px;
+            
+         
+        }
+
+        .meditation-tips {
+            padding: 40px 0;
+            background-color: #fafcff;
+        }
+
+        .meditation-tips ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .filter-section {
+            margin-bottom: 30px;
+        }
+        .filter-section label{
+            color: aquamarine;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Digital Hug 🤗</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" nav="pills">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link " href="1home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Futures
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li ><a class="dropdown-item" href="tech.html">Techniques</a></li>
+                            <li><a class="dropdown-item" href="moti.html">Meditation</a></li>
+                            <li><a class="dropdown-item" href="Wellness Hub.html">Wellness Hub</a></li>
+                            <li ><a class="dropdown-item" href="com.html">Community</a></li>
+                        </ul>
+                      </li>
+                  
+                    <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+                    <li class="nav-item"><a class="nav-link " href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+              
+              
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="meditation-section">
+            <div class="container">
+                <h2>Meditation for Inner Peace</h2>
+                <p>Explore our library of guided meditations and mindfulness exercises to find your calm.</p>
+
+                <div class="filter-section">
+                    <label for="meditationType">Filter by Type:</label>
+                    <select id="meditationType" class="form-select">
+                        <option value="all">All</option>
+                        <option value="guided">Guided</option>
+                        <option value="mindfulness">Mindfulness</option>
+                        <option value="sleep">Sleep</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 meditation-item" data-type="guided">
+                        <h3>Guided Relaxation</h3>
+                        <audio src="meditation-3-432hz-768hz-147120.mp3" controls></audio>
+                        <p>A gentle guided meditation to release tension.</p>
+                    </div>
+                    <div class="col-md-4 meditation-item" data-type="mindfulness">
+                        <h3>Mindful Breathing</h3>
+                        <audio src="meditation-3-432hz-768hz-147120.mp3" controls></audio>
+                        <p>Focus on your breath to cultivate present moment awareness.</p>
+                    </div>
+                    <div class="col-md-4 meditation-item" data-type="sleep">
+                        <h3>Sleep Meditation</h3>
+                        <audio src="meditation-3-432hz-768hz-147120.mp3" controls></audio>
+                        <p>A soothing meditation to help you drift off to sleep.</p>
+                    </div>
+                    <div class="col-md-4 meditation-item" data-type="guided">
+                        <h3>Body Scan Meditation</h3>
+                        <audio src="meditation-3-432hz-768hz-147120.mp3" controls></audio>
+                        <p>Bring awareness to your body and release physical tension.</p>
+                    </div>
+                    <div class="col-md-4 meditation-item" data-type="sleep">
+                        <h3>Nature Sounds for Sleep</h3>
+                        <audio src="meditation-3-432hz-768hz-147120.mp3" controls></audio>
+                        <p>Calming nature sounds to help you relax and sleep.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="meditation-tips">
+            <div class="container">
+                <h2>Meditation Tips</h2>
+                <ul>
+                    <li>Find a quiet and comfortable space.</li>
+                    <li>Start with short sessions (5-10 minutes) and gradually increase the duration.</li>
+                    <li>Don't worry about having a "perfect" meditation; just focus on the present moment.</li>
+                    <li>Use guided meditations if you're new to meditation.</li>
+                    <li>Practice regularly for best results.</li>
+                    <li>Be patient and kind to yourself.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Digital Hug | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('meditationType').addEventListener('change', function() {
+            const selectedType = this.value;
+            const items = document.querySelectorAll('.meditation-item');
+
+            items.forEach(item => {
+                const itemType = item.dataset.type;
+                if (selectedType === 'all' || selectedType === itemType) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

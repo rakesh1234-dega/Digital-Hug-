@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Hug - Stress-Free Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .breadcrumb-item {
+            color: #f0ecec;
+        }
+       
+        .carousel-inner {
+            height: 0%;
+            margin-bottom: 30px;
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            color: #faebeb;
+            font-size: larger;font-style: oblique;
+            box-shadow: 0 4px 10px rgb(255, 253, 253); 
+           
+        }
+
+        .carousel-inner img{
+             width: 300px;     
+             max-height: 600px;       /* Limit height */
+             border-radius: 10px;
+             }
+        .carousel-caption {
+          bottom: 0;
+          top: 0;
+        }
+       
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+        .btn-custom {
+            margin-bottom: 20px;
+            background-color: #e74a4a;
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .mood-section {
+            padding: 50px 0;
+            background: rgba(241, 234, 234, 0.7);
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+        }
+        .mood-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .mood-btn {
+            padding: 15px 25px;
+            font-size: 1rem;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .happy-btn { background-color: #ffe082; color: #333; }
+        .sad-btn { background-color: #90caf9; color: #333; }
+        .bored-btn { background-color: #ffab91; color: #333; }
+        .stressed-btn { background-color: #b39ddb; color: #333; }
+        #mood-message {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .motivation-card, .fact-news-card {
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-top: 30px;
+        }
+        .relax-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .testimonial-section {
+            padding: 50px 0;
+            background: rgba(255, 255, 255, 0.5);
+        }
+        .footer {
+            padding: 20px 0;
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Digital Hug 🤗</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" nav="pills">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link " href="1home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Futures
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li ><a class="dropdown-item" href="tech.html">Techniques</a></li>
+                            <li><a class="dropdown-item" href="moti.html">Meditation</a></li>
+                            <li><a class="dropdown-item" href="Wellness Hub.html">Wellness Hub</a></li>
+                            <li ><a class="dropdown-item" href="com.html">Community</a></li>
+                        </ul>
+                      </li>
+                  
+                    <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+                    <li class="nav-item"><a class="nav-link " href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+              
+            </div>
+        </div>
+    </nav>
+    <div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item " aria-current="page">Home</li>
+          <li class="breadcrumb-item"><a href="com.html">Community</a></li>
+            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+        </ol>
+      </nav>
+      <div id="carouselExample" class="carousel slide p-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+      
+          <!-- First Slide with Centered Hero Text -->
+          <div class="carousel-item active position-relative">
+            <img src="banner.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+              <h1 class="text-white bg-dark bg-opacity-50 p-3 rounded">Welcome to Your Stress-Free Zone</h1>
+              <p class="text-white bg-dark bg-opacity-50 p-2 rounded">Take a deep breath, relax, and let's make today better</p>
+            </div>
+          </div>
+      
+          <!-- Second Slide -->
+          <div class="carousel-item position-relative">
+            <img src="https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+              <h2 class="text-white bg-dark bg-opacity-50 p-2 rounded">Another Slide Text</h2>
+            </div>
+          </div>
+      
+          <!-- Third Slide -->
+          <div class="carousel-item position-relative">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.BkHsusIoOsOvWZHAAMfBbwHaE9&pid=Api&P=0&h=180" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+              <h2 class="text-white bg-dark bg-opacity-50 p-2 rounded">Third Slide Text</h2>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon"aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+    <div id="mood-section" class="container mood-section">
+        <h2 class="text-center">💡 How are you feeling today?</h2>
+        <p class="text-center">Click a mood, and I'll try to make you smile! 😊</p>
+        <div class="mood-buttons">
+            <button type="button" class="btn btn-primary position-relative">
+                I'm Happy
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  86+
+                  <span class="visually-hidden"> I'm Happy</span>
+                </span>
+              </button>
+              <button type="button" class="btn btn-primary position-relative">
+                😢 I'm Sad
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  69+
+                  <span class="visually-hidden"> I'm Happy</span>
+                </span>
+              </button>
+              <button type="button" class="btn btn-primary position-relative">
+                😐 I'm Bored
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  59+
+                  <span class="visually-hidden"> I'm Happy</span>
+                </span>
+              </button>
+              <button type="button" class="btn btn-primary position-relative">
+                😖 I'm Stressed
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  50+
+                  <span class="visually-hidden"> I'm Happy</span>
+                </span>
+              </button>
+           
+           
+        </div>
+        <div class="mood-response mt-4">
+            <h3 id="mood-message" class="text-center">Let's make your day better! 🎉</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="motivation-card">
+            <h2 class="mb-3">🌟 Daily Motivation & Challenge 🌟</h2>
+            <p class="quote">Loading quote...</p>
+            <p class="author"></p>
+                
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading challenge...</span>
+            </div>
+        </div>
+        <div class="fact-news-card">
+            <h2 class="mb-3">🎉 Fun Fact of the Day 🎉</h2>
+            <p class="fact-text">Loading fun fact...</p>
+            <div class="spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading challenge...</span>
+            </div>
+        </div>
+        <div class="fact-news-card text-secondary">
+            <h2 class="mb-3">🌍 Positive News of the Day 🌍</h2>
+            <p class="news-text">Loading positive news...</p>
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading challenge...</span>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 text-center position-relative">
+        <h2>What Users Say 💬</h2>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <p>“This site helped me through tough times! Thank you. 💙”</p>
+                    <small>- Maya</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <p>“Love the positive vibes! Feels like a warm hug. 😁”</p>
+                    <small>- John</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <p>“Great tools for stress relief. I visit daily! 🙌”</p>
+                    <small>- Sophia</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    
+        
+    </body>
